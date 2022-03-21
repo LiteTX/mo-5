@@ -316,55 +316,56 @@
                                         </div>
                                     </div>
                                 </div>  -->  </div> 
-                        </div>            <div class="row">
+                        </div>           
+
+                        <div class="row">
                             <div class="col-md-6 col-xl-4">
-                                <div class="card mb-3 widget-content bg-white">
-                                    <div class="widget-content-wrapper text-dark">
+                                <div class="card mb-3 widget-content bg-midnight-bloom">
+                                    <div class="widget-content-wrapper text-white">
                                         <div class="widget-content-left">
-                                            <div class="widget-heading">Available Balance</div>
-                                            <div class="widget-subheading">Available equity on wallet  </div>
+                                            <div class="widget-heading">Total Deposit</div>
+                                            <div class="widget-subheading">Available equity  </div>
                                         </div>
                                         <div class="widget-content-right">
-                                            <div class="widget-numbers text-dark"><span>$ 236,750</span></div>
+                                            <div class="widget-numbers text-white"><span>$ <%= " " + user.availbalance %> </span></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6 col-xl-4">
-                                <div class="card mb-3 widget-content bg-white">
-                                    <div class="widget-content-wrapper text-dark">
+                                <div class="card mb-3 widget-content bg-arielle-smile">
+                                    <div class="widget-content-wrapper text-white">
                                         <div class="widget-content-left">
-                                            <div class="widget-heading">Total Withdrawal Payout</div>
-                                            <div class="widget-subheading">Total of withdrawals</div>
+                                            <div class="widget-heading">Total Payout</div>
+                                            <div class="widget-subheading">Total Obtained Profit</div>
                                         </div>
                                         <div class="widget-content-right">
-                                            <div class="widget-numbers text-dark"><span>$ 125,875 </span></div>
+                                            <div class="widget-numbers text-white"><span>$ <%= " " + user.withdrawals %> </span></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6 col-xl-4">
-                                <div class="card mb-3 widget-content bg-white">
-                                    <div class="widget-content-wrapper text-dark">
+                                <div class="card mb-3 widget-content bg-grow-early">
+                                    <div class="widget-content-wrapper text-white">
                                         <div class="widget-content-left">
-                                            <div class="widget-heading">MO-5 Variant</div>
-                                            <div class="widget-subheading">Type of software used</div>
+                                            <div class="widget-heading">Plan Type</div>
+                                            <div class="widget-subheading">Current active plan</div>
                                         </div>
                                         <div class="widget-content-right">
-                                            <div class="widget-numbers text-dark"><span> Intermediate  </span></div>
+                                            <div class="widget-numbers text-white"><span> <%= " " + user.plantype %> </span></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-xl-4">
-                                <div class="card mb-3 widget-content bg-white">
-                                    <div class="widget-content-wrapper text-dark">
+                            <div class="d-xl-none d-lg-block col-md-6 col-xl-4">
+                                <div class="card mb-3 widget-content bg-premium-dark">
+                                    <div class="widget-content-wrapper text-white">
                                         <div class="widget-content-left">
-                                            <div class="widget-heading">Portfolio Type</div>
-                                            <div class="widget-subheading">Type of wallet being withdrawn</div>
+                                            <div class="widget-heading">Number of referrals </div>
+                                            <div class="widget-subheading">Available pending deposit</div>
                                         </div>
-                                        <div class="widget-content-right">
-                                            <div class="widget-numbers text-dark"><span> Insta Wallet Pay </span></div>
+                                        <div class="widget-content-right">                 <div class="widget-numbers text-warning"><span><%= " " + user.refaralsbonus %></span></div>
                                         </div>
                                     </div>
                                 </div>
